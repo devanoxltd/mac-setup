@@ -30,12 +30,20 @@ git clone https://github.com/flutter/flutter.git -b stable
 sudo gem install cocoapods
 ```
 
-## Install Oh My Zsh auto suggestions
+####  💻 Install Oh My Zsh auto suggestions
 
 Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
     ```sh
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+
+####  💻 Install Oh My Zsh syntax highlighting
+
+Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
+
+    ```sh
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     ```
 
 #### Replace zshrc file
