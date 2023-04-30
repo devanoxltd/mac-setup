@@ -11,6 +11,7 @@ brew install wget
 brew install curl
 brew install composer
 brew install mysql
+brew install node
 
 brew services start mysql
 
