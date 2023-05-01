@@ -5,6 +5,7 @@ brew install --cask anydesk
 brew install --cask vlc
 brew install --cask visual-studio-code
 brew install --cask ngrok
+brew install --cask firefox
 
 brew install git
 brew install wget
