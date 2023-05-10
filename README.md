@@ -14,7 +14,7 @@ xcode-select --install
 
 ### 💻 Install Apps via script
 ```sh
-curl -s https://raw.githubusercontent.com/devanoxOfficial/mac-setup/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/setup.sh | bash
 ```
 
 ### 💻 Install Flutter
@@ -50,7 +50,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 zshrc file is located at `~/.zshrc`
 
 ```sh
-curl curl -s https://raw.githubusercontent.com/devanoxOfficial/mac-setup/main/zshrc > ~/.zshrc
+curl curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/zshrc > ~/.zshrc
 ```
 
 #### run flutter doctor
