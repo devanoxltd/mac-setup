@@ -64,3 +64,10 @@ flutter doctor
 git config --global user.name "Mr Chetan"
 git config --global user.email "contact@mrchetan.com"
 ```
+
+##  ⚡ Configure Git Profile For Single Repo
+
+```sh
+git config user.name "Mr Chetan"
+git config user.email "contact@mrchetan.com"
+```
