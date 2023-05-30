@@ -109,3 +109,4 @@ export PATH="$PATH:$HOME/development/sdk/flutter/bin"
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+export PATH=$HOME/bin:~/.config/phpmon/bin:$PATH
