@@ -22,9 +22,6 @@ brew tap nicoverbruggen/homebrew-cask
 
 brew install --cask phpmon
 
-composer global require squizlabs/php_codesniffer:dev-master
-composer global require mrchetan/php_standard
-
 composer global require laravel/installer
 
 composer global require laravel/valet
