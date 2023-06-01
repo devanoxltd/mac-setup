@@ -1,4 +1,4 @@
-# 🗣 Setup Your mac for laravel and flutter development
+# 🗣 Setup Your mac for laravel development
 
 ### 💪   Follow Below steps
 
@@ -15,19 +15,6 @@ xcode-select --install
 ### 💻 Install Apps via script
 ```sh
 curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/setup.sh | bash
-```
-
-### 💻 Install Flutter
-```sh
-cd ~
-mkdir development/sdk
-cd development/sdk
-git clone https://github.com/flutter/flutter.git -b stable
-``` 
-
-####  💻 Install cocoapods for flutter
-```sh
-sudo gem install cocoapods
 ```
 
 ####  💻 Install Oh My Zsh auto suggestions
@@ -51,12 +38,7 @@ zshrc file is located at `~/.zshrc`
 
 ```sh
 curl curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/zshrc > ~/.zshrc
-```
 
-#### run flutter doctor
-```sh
-flutter doctor
-```
 
 ##  ⚡ Configure Git Profile 
 
