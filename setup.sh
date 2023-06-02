@@ -26,7 +26,7 @@ composer global require laravel/installer
 
 composer global require laravel/valet
 
-valet install
-
+# valet install
+osascript -e 'tell application "Terminal" to do script "valet install"'
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
