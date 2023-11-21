@@ -36,9 +36,9 @@ composer global require laravel/installer
 composer global require laravel/valet
 
 # Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install Flutter
 osascript -e 'tell application "Terminal" to do script "curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/install-flutter.sh | bash"'
