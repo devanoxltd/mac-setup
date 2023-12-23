@@ -47,8 +47,11 @@ osascript -e 'tell application "Terminal" to do script "curl -s https://raw.gith
 # zshrc file is located at ~/.zshrc
 curl curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/zshrc > ~/.zshrc
 
+# reload zshrc file
+source ~/.zshrc
+
 # valet install
-osascript -e 'tell application "Terminal" to do script "valet install"'
+valet install
 
 # set git config
 git config --global user.name "Mr Chetan"
