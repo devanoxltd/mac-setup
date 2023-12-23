@@ -1,7 +1,5 @@
 # 🗣 Setup Your mac for laravel development
 
-### 💪   Follow Below steps
-
 ### 📝  Install Xcode
 ```sh
 xcode-select --install
@@ -12,7 +10,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### 💻 Install Apps via script
+### 💪 💻 Start Setup Your mac for laravel and flutter development
 ```sh
 curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/simple/setup.sh | bash
 ```
