@@ -38,9 +38,9 @@ zshrc file is located at `~/.zshrc`
 
 ```sh
 curl curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/simple/zshrc > ~/.zshrc
+```
 
-
-##  ⚡ Configure Git Profile 
+##  ⚡ Configure Git Profile
 
 ```sh
 git config --global user.name "Mr Chetan"
