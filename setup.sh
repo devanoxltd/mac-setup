@@ -58,4 +58,5 @@ git config --global user.name "Mr Chetan"
 git config --global user.email "contact@mrchetan.com"
 
 # run flutter doctor
-osascript -e 'tell application "Terminal" to do script "flutter doctor"'
+flutter doctor
+# osascript -e 'tell application "Terminal" to do script "flutter doctor"'

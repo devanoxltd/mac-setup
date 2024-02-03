@@ -96,6 +96,13 @@ export VISUAL="$EDITOR"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Paths
+export PATH="$PATH:$HOME/development/sdk/flutter/bin"
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+export PATH=$HOME/bin:~/.config/phpmon/bin:$PATH
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -104,9 +111,48 @@ export VISUAL="$EDITOR"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# Path to flutter
-export PATH="$PATH:$HOME/development/sdk/flutter/bin"
-export GEM_HOME=$HOME/.gem
-export PATH=$GEM_HOME/bin:$PATH
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-export PATH=$HOME/bin:~/.config/phpmon/bin:$PATH
+# comman aliases
+alias ll="ls -AlFh"
+
+# npm aliases
+alias nd="npm run dev"
+alias nb="npm run build"
+
+# git aliases
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias nah="git reset --hard && git clean -fd"
+alias gs="git status"
+alias gaa="git add ."
+alias gcm="git commit -m"
+alias gp="git pull"
+alias gpu="git push"
+alias gco="git checkout"
+alias gb="git branch"
+alias gprf="git config pull.rebase false"
+
+# laravel aliases
+alias pa="php artisan"
+alias pat="php artisan tinker"
+alias pa:o="php artisan optimize"
+alias pa:oc="php artisan optimize:clear"
+alias pa:cc="php artisan cache:clear"
+alias par:l="php artisan route:list"
+alias pam="php artisan migrate"
+alias pam:r="php artisan migrate:refresh"
+alias pam:rs="php artisan migrate:refresh --seed"
+alias pam:f="php artisan migrate:fresh"
+alias pam:fs="php artisan migrate:fresh --seed"
+alias pam:ro="php artisan migrate:rollback"
+alias pams="php artisan migrate:status"
+alias pas="php artisan serve"
+
+# composer aliases
+alias ci="composer install"
+alias cu="composer update"
+alias cdu="composer dump-autoload -o"
+alias cr="composer require"
+alias crd="composer require --dev"
+alias crr="composer remove"
+alias cgu="composer global update"
+alias cga="composer global require"
+alias cgr="composer global remove"
