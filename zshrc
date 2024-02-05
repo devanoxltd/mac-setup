@@ -147,6 +147,7 @@ alias pams="php artisan migrate:status"
 alias pas="php artisan serve"
 
 # composer aliases
+alias c="composer"
 alias ci="composer install"
 alias cu="composer update"
 alias cdu="composer dump-autoload -o"
