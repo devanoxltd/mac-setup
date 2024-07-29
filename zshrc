@@ -97,6 +97,10 @@ export VISUAL="$EDITOR"
 # export ARCHFLAGS="-arch x86_64"
 
 # Paths
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
 export PATH="$PATH:$HOME/development/sdk/flutter/bin"
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
@@ -146,3 +150,5 @@ alias ci="composer install"
 alias cu="composer update"
 alias cdu="composer dump-autoload -o"
 alias cg="composer global"
+
+alias gitall="sh ~/development/script/git-fetch-all/git-fetch-all.sh"
