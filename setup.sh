@@ -33,7 +33,7 @@ composer global require mrchetan/php_standard
 
 composer global require laravel/installer
 
-composer global require laravel/valet
+composer global require devanoxltd/valet
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
