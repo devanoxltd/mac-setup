@@ -59,3 +59,6 @@ git config --global user.email "contact@mrchetan.com"
 # run flutter doctor
 flutter doctor
 # osascript -e 'tell application "Terminal" to do script "flutter doctor"'
+
+
+brew install bruno
