@@ -6,7 +6,6 @@
 
 # Install brew packages
 brew install --cask google-chrome
-brew install --cask anydesk
 brew install --cask vlc
 brew install --cask visual-studio-code
 brew install --cask ngrok
