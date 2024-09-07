@@ -4,6 +4,10 @@
 ```sh
 xcode-select --install
 ```
+### 📝  Accept Xcode license
+```sh
+sudo xcodebuild -license
+```
 
 ### 📝  Install Homebrew
 ```sh
