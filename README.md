@@ -19,6 +19,10 @@ sudo xcodebuild -license
 curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/setup.sh | bash
 ```
 
+### Use brew in current terminal
+```sh
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 ##  ⚡ Configure Git Profile
 
 ```sh
