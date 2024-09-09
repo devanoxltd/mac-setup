@@ -17,11 +17,6 @@ brew install --cask warp
 brew install bruno
 
 brew install git
-
-# set git config
-git config --global user.name "Mr Chetan"
-git config --global user.email "contact@mrchetan.com"
-
 brew install wget
 brew install curl
 brew install php
