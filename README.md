@@ -36,3 +36,12 @@ git config --global user.email "contact@mrchetan.com"
 git config user.name "Mr Chetan"
 git config user.email "contact@mrchetan.com"
 ```
+
+
+## Add VSCode as default editor for all programming languages on macOS
+```sh
+brew install duti python-yq
+curl "https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml" \
+  | yq -r "to_entries | (map(.value.extensions) | flatten) - [null] | unique | .[]" \
+  | xargs -L 1 -I "{}" duti -s com.microsoft.VSCode {} all
+```
