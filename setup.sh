@@ -8,13 +8,10 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install brew packages
 brew install --cask google-chrome
-brew install --cask vlc
 brew install --cask visual-studio-code
 brew install --cask ngrok
-brew install --cask firefox
 brew install --cask warp
 
-brew install bruno
 
 brew install git
 brew install wget
@@ -29,6 +26,19 @@ brew services start mysql
 brew tap nicoverbruggen/homebrew-cask
 
 brew install --cask phpmon
+brew install --cask vlc
+brew install --cask firefox
+
+brew install bruno
+brew install --cask pearcleaner # https://github.com/alienator88/Pearcleaner
+brew install --cask hiddenbar # https://github.com/dwarvesf/hidden
+brew install --cask rectangle
+brew install --cask slack
+brew install --cask postman
+brew install --cask docker
+brew install --cask minisim # https://github.com/okwasniewski/MiniSim
+brew install --cask pika # https://github.com/superhighfives/pika
+brew install stats # https://github.com/exelban/stats
 
 # Install composer packages
 composer global require mrchetan/php_standard
