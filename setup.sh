@@ -32,7 +32,7 @@ brew install --cask firefox
 brew install bruno
 brew install --cask pearcleaner # https://github.com/alienator88/Pearcleaner
 brew install --cask hiddenbar # https://github.com/dwarvesf/hidden
-brew install --cask rectangle
+brew install --cask rectangle # https://github.com/rxhanson/Rectangle
 brew install --cask slack
 brew install --cask postman
 brew install --cask docker
@@ -42,7 +42,8 @@ brew install stats # https://github.com/exelban/stats
 brew install --cask beekeeper-studio # https://github.com/beekeeper-studio/beekeeper-studio
 brew install maccy # https://github.com/p0deje/Maccy
 brew install --cask tomatobar # https://github.com/ivoronin/TomatoBar
-
+# brew install --cask keepingyouawake # https://github.com/newmarcel/KeepingYouAwake
+brew install --cask keka # https://www.keka.io/en/ # https://github.com/aonez/Keka?tab=readme-ov-file
 
 # Install composer packages
 composer global require mrchetan/php_standard
