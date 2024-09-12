@@ -39,6 +39,10 @@ brew install --cask docker
 brew install --cask minisim # https://github.com/okwasniewski/MiniSim
 brew install --cask pika # https://github.com/superhighfives/pika
 brew install stats # https://github.com/exelban/stats
+brew install --cask beekeeper-studio # https://github.com/beekeeper-studio/beekeeper-studio
+brew install maccy # https://github.com/p0deje/Maccy
+brew install --cask tomatobar # https://github.com/ivoronin/TomatoBar
+
 
 # Install composer packages
 composer global require mrchetan/php_standard
