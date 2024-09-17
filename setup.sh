@@ -32,7 +32,6 @@ brew install --cask firefox
 brew install bruno
 brew install --cask pearcleaner # https://github.com/alienator88/Pearcleaner
 brew install --cask hiddenbar # https://github.com/dwarvesf/hidden
-brew install --cask rectangle # https://github.com/rxhanson/Rectangle
 brew install --cask slack
 brew install --cask postman
 brew install --cask docker
