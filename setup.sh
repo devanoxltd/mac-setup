@@ -15,7 +15,6 @@ brew install --cask warp
 
 brew install git
 brew install wget
-brew install curl
 brew install php
 brew install composer
 brew install node
