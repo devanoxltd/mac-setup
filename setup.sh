@@ -40,7 +40,7 @@ brew install stats # https://github.com/exelban/stats
 brew install --cask beekeeper-studio # https://github.com/beekeeper-studio/beekeeper-studio
 brew install maccy # https://github.com/p0deje/Maccy
 brew install --cask tomatobar # https://github.com/ivoronin/TomatoBar
-# brew install --cask keepingyouawake # https://github.com/newmarcel/KeepingYouAwake
+brew install --cask keepingyouawake # https://github.com/newmarcel/KeepingYouAwake
 brew install --cask keka # https://www.keka.io/en/ # https://github.com/aonez/Keka?tab=readme-ov-file
 
 # Install composer packages
