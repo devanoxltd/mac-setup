@@ -66,4 +66,5 @@ source ~/.zshrc
 # valet install
 valet install
 
+mkdir ~/.config/valet/templates
 curl curl -s https://raw.githubusercontent.com/devanoxLtd/mac-setup/main/templates/404.html > ~/.config/valet/templates/404.html
