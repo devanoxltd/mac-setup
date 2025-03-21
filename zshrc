@@ -120,7 +120,7 @@ alias ll="ls -AlFh"
 
 # npm aliases
 alias n="npm"
-alias nd="npm run dev"
+alias nd="NODE_OPTIONS=--max-old-space-size=200 npm run dev"
 alias nb="npm run build"
 
 # git aliases
